@@ -74,9 +74,8 @@ parser.add_argument("--hidden_size", type=int, default=100,
         help="number of neurons in the hidden layer, for visualisation better to be a square number")
 
 # training params
-# parser.add_argument("--input_file", default='../../input/kaggle_mnist/test_test.csv') 
-parser.add_argument("--input_file", default=None) 
-# by default kaggle set is used
+
+parser.add_argument("--input_file", default='../../input/kaggle_mnist/test.csv') 
 
 parser.add_argument("--num_train", type=int, default=30000, 
         help="number of samples to use for training")

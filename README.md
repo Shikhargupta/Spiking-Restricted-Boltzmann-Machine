@@ -82,5 +82,9 @@ Here is the structure of srbm with summary of each file -
         |-- visual.py          #Visualization functions
         
 ```
-        
-- 
+
+## Parameter Optimizations
+
+D.Neil's implementation of SRBM for MNIST handwritten digits classification converged to an **accuracy of 80%**. I did some of my own optimizations to improve the performance. I was able to touch **88%** mark. Also, I obtained an accuracy of **94%** using SRBM as a feature extractor. Following are the parameter tuning I performed with logical reasoning.
+
+### 
